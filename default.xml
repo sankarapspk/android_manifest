@@ -14,6 +14,9 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+  <remote  name="gitlab"
+           fetch="ssh://git@gitlab.com" />
+
   <remote  name="havoc"
            fetch="https://github.com/Havoc-OS"
            revision="pie" />
