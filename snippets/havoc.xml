@@ -98,7 +98,7 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="havoc" />
   <project path="system/vold" name="android_system_vold" remote="havoc" />
 
-  <project path="vendor/havoc" name="Havoc-Os/android_vendor_havoc" remote="github" revision="dipper" />
+  <project path="vendor/havoc" name="ZeNiXxX/vendor_havoc" remote="github" revision="dipper" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="havoc" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="havoc" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="havoc" />
