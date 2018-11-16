@@ -46,7 +46,7 @@
   <project path="external/sqlite" name="android_external_sqlite" remote="havoc" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="havoc" />
 
-  <project path="frameworks/av" name="android_frameworks_av" remote="havoc" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="havoc" revision="dipper" />
   <project path="frameworks/base" name="ZeNiXxX/havocFrameworkBase" remote="private" revision="dipper" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="havoc" />
   <project path="frameworks/havoc" name="android_frameworks_havoc" remote="havoc" />
