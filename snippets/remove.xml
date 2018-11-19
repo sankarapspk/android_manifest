@@ -118,6 +118,7 @@
   <remove-project name="platform/packages/apps/Test/connectivity" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/inputmethods/OpenWnn" />
+  <remove-project name="platform/packages/apps/Messaging" />
 
   <!-- Provider repos -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
