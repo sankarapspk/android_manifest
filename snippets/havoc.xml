@@ -67,7 +67,7 @@
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="havoc" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="havoc" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="havoc" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="havoc" />
+  <project path="hardware/qcom/wlan" name="Citrus-CAF/hardware_qcom_wlan" remote="github" revision="p9x" />
   <project path="hardware/ril" name="android_hardware_ril" remote="havoc" />
   <project path="hardware/ril-caf" name="android_hardware_qcom_ril" remote="havoc" />
 
