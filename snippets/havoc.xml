@@ -136,6 +136,6 @@
   <project name="ZeNiXxX/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="pie" />
   <project name="ZeNiXxX/havoc-dipper-kernel" path=" device/xiaomi/dipper-kernel" remote="github" revision="pie" />
   
-   <project path="prebuilts/clang/host/linux-x86/sdclang-6.0.2/bin" name="ghostrider-reborn/sdclang-6.0.2" remote="github" revision="master" />
+   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-8.0.1" name="milouk/Gcc-Uber-Prebuilts" remote="github" revision="uber-8.0.1" />
 
 </manifest>
