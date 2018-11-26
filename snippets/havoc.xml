@@ -4,6 +4,9 @@
     <remote  name="lineage"
            fetch="https://github.com/LineageOS"
            revision="lineage-16.0" />
+   
+  <remote  name="gitlab"
+           fetch="ssh://git@gitlab.com" />
 
   <!-- Havoc additions -->
 
@@ -80,7 +83,6 @@
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="havoc" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="havoc" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="havoc" />
-  <project path="packages/apps/Pulse" name="android_packages_apps_Pulse" remote="havoc" />
   <project path="packages/apps/Settings" name="ZeNiXxX/packages_settings_apps" remote="private" revision="dipper" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="havoc" />
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="havoc" />
@@ -92,6 +94,8 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="havoc" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="havoc" revision="dipper" />
   <project path="packages/providers/WeatherProvider" name="android_packages_providers_WeatherProvider" remote="havoc" />
+  <project path="packages/apps/SmartNav" name="SKULSHADY/android_packages_apps_SmartNav" remote="gitlab" revision="pie" />
+  <project path="packages/apps/SmartNavSettings" name="SKULSHADY/android_packages_apps_SmartNavSettings" remote="gitlab" revision="pie" />
 
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="havoc" />
 
