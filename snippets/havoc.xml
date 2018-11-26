@@ -134,7 +134,7 @@
   <project name="ZeNiXxX/android_device_xiaomi_beryllium" path="device/xiaomi/berylium" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
   <project name="ZeNiXxX/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="pie" />
-  <project name="ZeNiXxX/havoc-dipper-kernel" path=" device/xiaomi/dipper-kernel" remote="github" revision="pie" />
+  <project name="ZeNiXxX/havoc-dipper-kernel" path=" device/xiaomi/dipperkernel" remote="github" revision="pie" />
   
    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-8.0.1" name="milouk/Gcc-Uber-Prebuilts" remote="github" revision="uber-8.0.1" />
 
