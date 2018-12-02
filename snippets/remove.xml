@@ -120,7 +120,8 @@
   <remove-project name="platform/packages/apps/Test/connectivity" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/inputmethods/OpenWnn" />
-
+ <remove-project name="platform/external/vixl" />
+ 
   <!-- Provider repos -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
@@ -129,4 +130,13 @@
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
 
+  <remove-project name="platform/libcore" />
+  <remove-project name="platform/prebuilts/r8" />
+  <remove-project name="platform/prebuilts/go/linux-x86" />
+  <remove-project name="platform/external/freetype" />
+  <remove-project name="platform/external/turbine" />
+  <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/system/keymaster" />
+  <remove-project name="platform/external/skqp" />
+  <remove-project name="platform/system/libhwbinder" />
 </manifest>

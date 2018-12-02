@@ -129,6 +129,17 @@
   <project path="vendor/nxp/opensource/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="lineage"/>
   <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="lineage"/>
 
+  <project path="external/freetype" name="android_external_freetype" remote="havoc" />
+  <project path="external/turbine" name="android_external_turbine" remote="havoc" />
+  <project path="libcore" name="android_libcore" remote="havoc" />
+  <project path="external/zlib" name="android_external_zlib" remote="havoc" />
+  <project path="prebuilts/r8" name="android_prebuilts_r8" remote="havoc" />
+  <project path="prebuilts/go/linux-x86" name="android_prebuilts_go_linux-x86" remote="havoc" />
+  <project path="external/skqp" name="android_external_skqp" remote="havoc" />
+  <project path="system/keymaster" name="android_system_keymaster" remote="havoc" />
+  <project path="system/libhwbinder" name="android_system_libhwbinder" remote="havoc" />
+  <project path="external/vixl" name="android_external_vixl" remote="havoc" />
+  
      <remote name="mi8"
            fetch="ssh://git@github.com"
            revision="p" />
@@ -136,7 +147,7 @@
     <!-- Dipper --> 
   <project name="ZeNiXxX/android_device_xiaomi_dipper_private" path="device/xiaomi/dipper" remote="mi8" />
   <project name="ZeNiXxX/device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="github" revision="pie" />
-  <project name="milouk/Sphinx-Dipper" path="kernel/xiaomi/sdm845" remote="github" revision="Sphinx-Pie" />
+  <project name="ZeNiXxX/Sphinx-Dipper" path="kernel/xiaomi/sdm845" remote="github" revision="Sphinx-Pie" />  
   <project name="ZeNiXxX/android_device_xiaomi_beryllium" path="device/xiaomi/berylium" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
   <project name="ZeNiXxX/proprietary_vendor_xiaomi_private" path="vendor/xiaomi" remote="private" revision="dipper" />
