@@ -7,6 +7,10 @@
    
   <remote  name="gitlab"
            fetch="ssh://git@gitlab.com" />
+  
+  <remote name="mi8"
+         fetch="ssh://git@github.com"
+         revision="p" />
 
   <!-- Havoc additions -->
 
@@ -139,11 +143,7 @@
   <project path="system/keymaster" name="android_system_keymaster" remote="havoc" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="havoc" />
   <project path="external/vixl" name="android_external_vixl" remote="havoc" />
-  
-     <remote name="mi8"
-           fetch="ssh://git@github.com"
-           revision="p" />
-  
+    
     <!-- Dipper --> 
   <project name="ZeNiXxX/android_device_xiaomi_dipper_private" path="device/xiaomi/dipper" remote="mi8" />
   <project name="ZeNiXxX/device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="github" revision="pie" />
@@ -152,6 +152,7 @@
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
   <project name="ZeNiXxX/proprietary_vendor_xiaomi_private" path="vendor/xiaomi" remote="private" revision="dipper" />
   <project name="ZeNiXxX/havoc-dipper-kernel" path=" device/xiaomi/dipperkernel" remote="github" revision="pie" />
+  <project name="ZeNiXxX/p3r-gapps" path=" vendor/p3r/gapps" remote="gitlab" revision="pie" />
   
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-8.0.1" name="milouk/Gcc-Uber-Prebuilts" remote="github" revision="uber-8.0.1" />
 
