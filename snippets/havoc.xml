@@ -101,8 +101,8 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="havoc" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="havoc" revision="dipper" />
   <project path="packages/providers/WeatherProvider" name="android_packages_providers_WeatherProvider" remote="havoc" />
-  <project path="packages/apps/SmartNav" name="SKULSHADY/android_packages_apps_SmartNav" remote="gitlab" revision="pie" />
-  <project path="packages/apps/SmartNavSettings" name="SKULSHADY/android_packages_apps_SmartNavSettings" remote="gitlab" revision="pie" />
+  <project path="packages/apps/SmartNav" name="android_packages_apps_SmartNav" remote="havoc" />
+  <project path="packages/apps/SmartNavSettings" name="android_packages_apps_SmartNavSettings" remote="havoc" />
 
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="havoc" />
 
@@ -154,7 +154,8 @@
   <project name="ZeNiXxX/proprietary_vendor_xiaomi_private" path="vendor/xiaomi" remote="private" revision="dipper" />
   <project name="ZeNiXxX/havoc-dipper-kernel" path="device/xiaomi/dipperkernel" remote="github" revision="pie" />
   <project name="ZeNiXxX/p3rgapps" path="vendor/p3r/p3rgapps" remote="gitlab" revision="pie" />
-  
+    <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="havoc" />
+
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-8.0.1" name="milouk/Gcc-Uber-Prebuilts" remote="github" revision="uber-8.0.1" />
 
 </manifest>

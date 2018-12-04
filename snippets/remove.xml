@@ -139,4 +139,5 @@
   <remove-project name="platform/system/keymaster" />
   <remove-project name="platform/external/skqp" />
   <remove-project name="platform/system/libhwbinder" />
+   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
 </manifest>
