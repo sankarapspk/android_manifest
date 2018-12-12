@@ -101,9 +101,8 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="havoc" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="havoc" revision="dipper" />
   <project path="packages/providers/WeatherProvider" name="android_packages_providers_WeatherProvider" remote="havoc" />
-  <project path="packages/apps/SmartNav" name="android_packages_apps_SmartNav" remote="havoc" />
-  <project path="packages/apps/SmartNavSettings" name="android_packages_apps_SmartNavSettings" remote="havoc" />
-
+  <project path="packages/apps/SmartNav" name="SKULSHADY/android_packages_apps_SmartNav" remote="gitlab" revision="pie" />
+  <project path="packages/apps/SmartNavSettings" name="SKULSHADY/android_packages_apps_SmartNavSettings" remote="gitlab" revision="pie" />
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="havoc" />
 
   <project path="system/bt" name="android_system_bt" remote="havoc" />
