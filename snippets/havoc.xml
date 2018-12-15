@@ -10,7 +10,7 @@
            revision="pie" />
   
   <remote name="mi8"
-         fetch="ssh://git@github.com"
+         fetch="ssh://git@gitlab.com"
          revision="p" />
 
   <!-- Havoc additions -->
@@ -147,13 +147,13 @@
     <!-- Dipper --> 
   <project name="ZeNiXxX/android_device_xiaomi_dipper_private" path="device/xiaomi/dipper" remote="mi8" />
   <project name="ZeNiXxX/device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="github" revision="pie" />
-  <project name="ZeNiXxX/Sphinx-Dipper" path="kernel/xiaomi/sdm845" remote="github" revision="Sphinx-Pie" />  
+  <project name="milouk/Sphinx-Dipper" path="kernel/xiaomi/sdm845" remote="github" revision="Sphinx-Pie-Rebase" />  
   <project name="ZeNiXxX/android_device_xiaomi_beryllium" path="device/xiaomi/berylium" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
   <project name="ZeNiXxX/proprietary_vendor_xiaomi_private" path="vendor/xiaomi" remote="private" revision="dipper" />
   <project name="ZeNiXxX/havoc-dipper-kernel" path="device/xiaomi/dipperkernel" remote="github" revision="pie" />
   <project name="ZeNiXxX/p3rgapps" path="vendor/p3r/p3rgapps" remote="gitlab" revision="pie" />
-    <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="havoc" />
+  <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="havoc" />
 
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-8.0.1" name="milouk/Gcc-Uber-Prebuilts" remote="github" revision="uber-8.0.1" />
 
